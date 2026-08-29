@@ -34,10 +34,15 @@
 | <img src="docs/screenshots/lockscreen-live-activity.png" width="250"> | <img src="docs/screenshots/home-dynamic-island.png" width="250"> |
 | *待办常驻锁屏,点击圆圈原地完成* | *蝴蝶图标 + 灵动岛实时徽标* |
 
-| 到期提醒 | 长按编辑/删除 | 拖动排序 |
-|---|---|---|
-| <img src="docs/screenshots/reminder-label.png" width="250"> | <img src="docs/screenshots/context-menu.png" width="250"> | <img src="docs/screenshots/edit-mode-reorder.png" width="250"> |
-| *🔔 到期时间标签* | *长按呼出快捷菜单* | *编辑模式拖动排序* |
+| 到期提醒 | 长按编辑/删除 |
+|---|---|
+| <img src="docs/screenshots/reminder-label.png" width="250"> | <img src="docs/screenshots/context-menu.png" width="250"> |
+| *🔔 到期时间标签* | *长按呼出快捷菜单* |
+
+| 拖动排序 | 🔕 横幅手动开关 |
+|---|---|
+| <img src="docs/screenshots/edit-mode-reorder.png" width="250"> | <img src="docs/screenshots/banner-off.png" width="250"> |
+| *编辑模式拖动排序* | *一键关闭横幅,🔕 状态持久化* |
 
 > 🎬 编辑模式切换演示(点击 ↑↓ → 右侧 ≡ 手柄直接稳定显示):
 
@@ -57,6 +62,16 @@
 - 卡片展示待完成数徽标 + 最多 2 条预览,超出折叠为「还有 N 项…」
 - 锁屏圆圈点击由 **App Intent** 在后台进程直接执行,横幅即时刷新
 - 右上角铃铛手动开关;手动关闭后自动逻辑不再复活横幅(状态持久化)
+
+#### 🔕 横幅手动开关
+
+不想被横幅打扰?右上角铃铛**一键开 / 关** Live Activity:
+
+<div align="center"><img src="docs/screenshots/banner-off.png" width="250" alt="横幅关闭状态"></div>
+
+- 关闭后按钮切换为 🔕(斜杠铃铛),一眼可辨当前状态
+- 关闭选择**持久化**:此后新增待办也不会自动复活横幅
+- 再次点击铃铛,横幅立即恢复挂载
 
 ### ⏰ 到期提醒
 - 编辑待办时打开「提醒我」,设定截止时间,到点弹系统通知
