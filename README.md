@@ -12,6 +12,7 @@
 [![UI](https://img.shields.io/badge/framework-SwiftUI-orange)](#)
 [![Live Activity](https://img.shields.io/badge/Live_Activity-ActivityKit-blue)](#)
 [![i18n](https://img.shields.io/badge/i18n-UN_6_Languages-green)](#)
+[![License](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey)](LICENSE)
 
 <img src="docs/screenshots/lockscreen-live-activity.png" width="300" alt="锁屏实时横幅">&nbsp;&nbsp;<img src="docs/screenshots/home-dynamic-island.png" width="300" alt="灵动岛与主屏">
 
@@ -160,8 +161,17 @@ Remindify/
 
 ---
 
+## 📄 许可
+
+本项目采用 [**CC BY-NC-ND 4.0**](LICENSE)(署名 - 非商业性使用 - 禁止演绎 4.0 国际)授权。
+
+- ✅ 允许:个人学习、研究,注明出处后分享原文
+- ❌ 禁止:商业性使用、修改后再创作、未署名转载
+
+版权所有 © 2026 xiongchengqing
+
 <div align="center">
 
-**ButterTodo** · 私有项目,版权所有 © 2026 xiongchengqing
+**ButterTodo** · 把待办「钉」在锁屏上 🦋
 
 </div>
