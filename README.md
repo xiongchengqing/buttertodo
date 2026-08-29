@@ -11,7 +11,7 @@
 [![Platform](https://img.shields.io/badge/platform-iOS_17.2+-black)](#)
 [![UI](https://img.shields.io/badge/framework-SwiftUI-orange)](#)
 [![Live Activity](https://img.shields.io/badge/Live_Activity-ActivityKit-blue)](#)
-[![i18n](https://img.shields.io/badge/i18n-UN_6 Languages-green)](#)
+[![i18n](https://img.shields.io/badge/i18n-UN_6_Languages-green)](#)
 
 <img src="docs/screenshots/lockscreen-live-activity.png" width="300" alt="锁屏实时横幅">&nbsp;&nbsp;<img src="docs/screenshots/home-dynamic-island.png" width="300" alt="灵动岛与主屏">
 
@@ -39,7 +39,9 @@
 | <img src="docs/screenshots/reminder-label.png" width="250"> | <img src="docs/screenshots/context-menu.png" width="250"> | <img src="docs/screenshots/edit-mode-reorder.png" width="250"> |
 | *🔔 到期时间标签* | *长按呼出快捷菜单* | *编辑模式拖动排序* |
 
-> 🎬 完整操作演示:[docs/demo.mp4](docs/demo.mp4)(下载后播放)
+> 🎬 编辑模式切换演示(点击 ↑↓ → 右侧 ≡ 手柄直接稳定显示):
+
+<div align="center"><img src="docs/demo.gif" width="300" alt="编辑模式操作演示"></div>
 
 ## 🧭 功能总览
 
