@@ -1,0 +1,14 @@
+# Xcode
+build/
+build_device/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+
+# macOS
+.DS_Store
+
+# 构建日志与临时产物
+*.log
+.DS_Store?

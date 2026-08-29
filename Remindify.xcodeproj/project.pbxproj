@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C67D6CEEFC5152C5230E89 /* StoreChangeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D5062130B0E9BA953ADF0 /* StoreChangeSignal.swift */; };
+		145993E5CAF3FEC47FC5088C /* ReminderActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CFD364F17D303673B69A4 /* ReminderActivity.swift */; };
+		1CF518F342E79F1A9F08F352 /* RemindifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A37F9AA8BB5D58C40BEE0 /* RemindifyApp.swift */; };
+		2CD7621837BB43EFA08D0AE6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AB9CB2034E5925F3E0214EA1 /* Localizable.xcstrings */; };
+		313836F6A819C3C0C815A5C8 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6273C84A6C2D86F48947847D /* ReminderModel.swift */; };
+		3157986A34193808CC5A1CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6E24C8FC4260EF001BB76 /* ContentView.swift */; };
+		3ECAA4B9BAFEDB40AABAF5B3 /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD89B14E4969682DF9F91C /* ReminderStore.swift */; };
+		4037C88FBBCB3C099270C5F3 /* ReminderNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6C974CBA51C797A014139 /* ReminderNotifications.swift */; };
+		43FDC86F918653D029ED1089 /* ReminderNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6C974CBA51C797A014139 /* ReminderNotifications.swift */; };
+		488B0EB01F09B578F19B5678 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6273C84A6C2D86F48947847D /* ReminderModel.swift */; };
+		5847B62F97C77E2B71C5D5A8 /* ToggleReminderIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB02797D8B52788F10E5E6C /* ToggleReminderIntent.swift */; };
+		90F4AD3214E17AFDFF4FC5FE /* RemindifyWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9FF2E1FF2327C09A12F4209B /* RemindifyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		98D958C773C49F076D6035CF /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AB9CB2034E5925F3E0214EA1 /* Localizable.xcstrings */; };
+		996C3BF17CE913EDA42B9503 /* ReminderActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CFD364F17D303673B69A4 /* ReminderActivity.swift */; };
+		A59F26DBF437C8A1EEF67597 /* KeyboardTapDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D352B3AF63742E5F4CC4067 /* KeyboardTapDismiss.swift */; };
+		A617808A1A8FCDEB60BDC2A9 /* StoreChangeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D5062130B0E9BA953ADF0 /* StoreChangeSignal.swift */; };
+		A903E98EEE8A162014E56147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993D66BC87C502D232EC0E9B /* Assets.xcassets */; };
+		B7BD51BE84D5F05A51905D08 /* ToggleReminderIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB02797D8B52788F10E5E6C /* ToggleReminderIntent.swift */; };
+		C759FDF1B370235C1AC2A510 /* RemindifyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E58262C03857A5B7338B01 /* RemindifyWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EAB135E596FEEE01B0FDF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B15E2A099B34995E8D648CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55D7806CF0BBC82CFEA39AD;
+			remoteInfo = RemindifyWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		684A02CDF809A4597507FB7A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90F4AD3214E17AFDFF4FC5FE /* RemindifyWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08DD89B14E4969682DF9F91C /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		1D352B3AF63742E5F4CC4067 /* KeyboardTapDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTapDismiss.swift; sourceTree = "<group>"; };
+		2DF1B9181027F306DE13899D /* Remindify.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Remindify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		384686FE3071DDC943188613 /* RemindifyWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RemindifyWidget.entitlements; sourceTree = "<group>"; };
+		4EB02797D8B52788F10E5E6C /* ToggleReminderIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleReminderIntent.swift; sourceTree = "<group>"; };
+		6273C84A6C2D86F48947847D /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		67D6C974CBA51C797A014139 /* ReminderNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderNotifications.swift; sourceTree = "<group>"; };
+		6B6A37F9AA8BB5D58C40BEE0 /* RemindifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindifyApp.swift; sourceTree = "<group>"; };
+		8527FF9B1FE94BBCFE2FB42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		993D66BC87C502D232EC0E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5D5062130B0E9BA953ADF0 /* StoreChangeSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreChangeSignal.swift; sourceTree = "<group>"; };
+		9FF2E1FF2327C09A12F4209B /* RemindifyWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = RemindifyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CB2034E5925F3E0214EA1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D9E58262C03857A5B7338B01 /* RemindifyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindifyWidget.swift; sourceTree = "<group>"; };
+		DC756026C77FD1129D6B3219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEE6E24C8FC4260EF001BB76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E32CFD364F17D303673B69A4 /* ReminderActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderActivity.swift; sourceTree = "<group>"; };
+		F1DB416C2ED87F4368D7506A /* Remindify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Remindify.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		31589A75EF389B6CBBC812DC = {
+			isa = PBXGroup;
+			children = (
+				5BB9B60CD01113C5D7A4BEEE /* Remindify */,
+				4ECB3E09232F3DC4635CAACF /* RemindifyWidget */,
+				6AB7E9C03AD77CE1A7F806B1 /* Shared */,
+				E9A9A6896508463BBB4F7F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECB3E09232F3DC4635CAACF /* RemindifyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8527FF9B1FE94BBCFE2FB42D /* Info.plist */,
+				384686FE3071DDC943188613 /* RemindifyWidget.entitlements */,
+				D9E58262C03857A5B7338B01 /* RemindifyWidget.swift */,
+			);
+			path = RemindifyWidget;
+			sourceTree = "<group>";
+		};
+		5BB9B60CD01113C5D7A4BEEE /* Remindify */ = {
+			isa = PBXGroup;
+			children = (
+				993D66BC87C502D232EC0E9B /* Assets.xcassets */,
+				DEE6E24C8FC4260EF001BB76 /* ContentView.swift */,
+				DC756026C77FD1129D6B3219 /* Info.plist */,
+				1D352B3AF63742E5F4CC4067 /* KeyboardTapDismiss.swift */,
+				08DD89B14E4969682DF9F91C /* ReminderStore.swift */,
+				F1DB416C2ED87F4368D7506A /* Remindify.entitlements */,
+				6B6A37F9AA8BB5D58C40BEE0 /* RemindifyApp.swift */,
+			);
+			path = Remindify;
+			sourceTree = "<group>";
+		};
+		6AB7E9C03AD77CE1A7F806B1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CB2034E5925F3E0214EA1 /* Localizable.xcstrings */,
+				E32CFD364F17D303673B69A4 /* ReminderActivity.swift */,
+				6273C84A6C2D86F48947847D /* ReminderModel.swift */,
+				67D6C974CBA51C797A014139 /* ReminderNotifications.swift */,
+				9C5D5062130B0E9BA953ADF0 /* StoreChangeSignal.swift */,
+				4EB02797D8B52788F10E5E6C /* ToggleReminderIntent.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E9A9A6896508463BBB4F7F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF1B9181027F306DE13899D /* Remindify.app */,
+				9FF2E1FF2327C09A12F4209B /* RemindifyWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF7016130BBE0B8A52D2943 /* Remindify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1316B95B47CAB2CE7F9851F /* Build configuration list for PBXNativeTarget "Remindify" */;
+			buildPhases = (
+				79D8B9748276A63A30E5BB74 /* Sources */,
+				0452B5731D1F5BBE138566F7 /* Resources */,
+				684A02CDF809A4597507FB7A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB06E638D2619F854B38C3E /* PBXTargetDependency */,
+			);
+			name = Remindify;
+			packageProductDependencies = (
+			);
+			productName = Remindify;
+			productReference = 2DF1B9181027F306DE13899D /* Remindify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D55D7806CF0BBC82CFEA39AD /* RemindifyWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7B919B626361D95527B513 /* Build configuration list for PBXNativeTarget "RemindifyWidget" */;
+			buildPhases = (
+				BF33878ABAC9DBA27F80E05D /* Sources */,
+				1D6E380FDF5558F1171F3C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemindifyWidget;
+			packageProductDependencies = (
+			);
+			productName = RemindifyWidget;
+			productReference = 9FF2E1FF2327C09A12F4209B /* RemindifyWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B15E2A099B34995E8D648CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AFF7016130BBE0B8A52D2943 = {
+						DevelopmentTeam = LR2TA2W2B4;
+						ProvisioningStyle = Automatic;
+					};
+					D55D7806CF0BBC82CFEA39AD = {
+						DevelopmentTeam = LR2TA2W2B4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9622C26FA0839C57C9E6F12 /* Build configuration list for PBXProject "Remindify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				en,
+				es,
+				fr,
+				ru,
+				"zh-Hans",
+			);
+			mainGroup = 31589A75EF389B6CBBC812DC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9A9A6896508463BBB4F7F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF7016130BBE0B8A52D2943 /* Remindify */,
+				D55D7806CF0BBC82CFEA39AD /* RemindifyWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0452B5731D1F5BBE138566F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903E98EEE8A162014E56147 /* Assets.xcassets in Resources */,
+				98D958C773C49F076D6035CF /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E380FDF5558F1171F3C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7621837BB43EFA08D0AE6 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D8B9748276A63A30E5BB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3157986A34193808CC5A1CF9 /* ContentView.swift in Sources */,
+				A59F26DBF437C8A1EEF67597 /* KeyboardTapDismiss.swift in Sources */,
+				996C3BF17CE913EDA42B9503 /* ReminderActivity.swift in Sources */,
+				488B0EB01F09B578F19B5678 /* ReminderModel.swift in Sources */,
+				4037C88FBBCB3C099270C5F3 /* ReminderNotifications.swift in Sources */,
+				3ECAA4B9BAFEDB40AABAF5B3 /* ReminderStore.swift in Sources */,
+				1CF518F342E79F1A9F08F352 /* RemindifyApp.swift in Sources */,
+				09C67D6CEEFC5152C5230E89 /* StoreChangeSignal.swift in Sources */,
+				B7BD51BE84D5F05A51905D08 /* ToggleReminderIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33878ABAC9DBA27F80E05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145993E5CAF3FEC47FC5088C /* ReminderActivity.swift in Sources */,
+				313836F6A819C3C0C815A5C8 /* ReminderModel.swift in Sources */,
+				43FDC86F918653D029ED1089 /* ReminderNotifications.swift in Sources */,
+				C759FDF1B370235C1AC2A510 /* RemindifyWidget.swift in Sources */,
+				A617808A1A8FCDEB60BDC2A9 /* StoreChangeSignal.swift in Sources */,
+				5847B62F97C77E2B71C5D5A8 /* ToggleReminderIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB06E638D2619F854B38C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55D7806CF0BBC82CFEA39AD /* RemindifyWidget */;
+			targetProxy = 9EAB135E596FEEE01B0FDF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FD7C6986D72988B995CF1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LR2TA2W2B4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90180945C6511C45858A920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RemindifyWidget/RemindifyWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RemindifyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.remindify.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB48AFDCA613336DF6CAFE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remindify/Remindify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Remindify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.remindify;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD6933829E93C9AB12AB0DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remindify/Remindify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Remindify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.remindify;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE287F77CEE3A490E5BB5C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RemindifyWidget/RemindifyWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RemindifyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.remindify.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB8FE3AF2D9D9CEFE8B440E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LR2TA2W2B4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7B919B626361D95527B513 /* Build configuration list for PBXNativeTarget "RemindifyWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE287F77CEE3A490E5BB5C41 /* Debug */,
+				A90180945C6511C45858A920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1316B95B47CAB2CE7F9851F /* Build configuration list for PBXNativeTarget "Remindify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB48AFDCA613336DF6CAFE8A /* Debug */,
+				BD6933829E93C9AB12AB0DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9622C26FA0839C57C9E6F12 /* Build configuration list for PBXProject "Remindify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD7C6986D72988B995CF1CF /* Debug */,
+				EB8FE3AF2D9D9CEFE8B440E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B15E2A099B34995E8D648CF /* Project object */;
+}
